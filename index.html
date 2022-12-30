@@ -1,26 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Calculator app</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <title>Frontend Mentor | Calculator app</title>
+    <link rel="stylesheet" href="app.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main class="main">
+      <div class="title">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+      </div>
+      <div class="title-theme">
+        <h1>calc</h1>
+        <div class="theme-div">
+          <h2>Theme</h2>
+          <div class="theme-set">
+            <input type="radio" id="theme-1" name="theme" class="theme" />
+            <input type="radio" id="theme-2" name="theme" class="theme" />
+            <input type="radio" id="theme-3" name="theme" class="theme" />
+            <!-- <div class="theme" id="theme-1"></div>
+            <div class="theme" id="theme-2"></div>
+            <div class="theme" id="theme-3"></div> -->
+          </div>
+        </div>
+      </div>
+      <div class="screen-div">
+        <h2>0</h2>
+      </div>
+      <div class="keypad-div">
+        <div class="keypad-rows">
+          <div class="keys-normal">
+            <h3>7</h3>
+          </div>
+          <div class="keys-normal">
+            <h3>8</h3>
+          </div>
+          <div class="keys-normal">
+            <h3>9</h3>
+          </div>
+          <div class="keys-normal del">
+            <h3>Del</h3>
+          </div>
+        </div>
+        <div class="keypad-rows">
+          <div class="keys-normal">
+            <h3>4</h3>
+          </div>
+          <div class="keys-normal">
+            <h3>5</h3>
+          </div>
+          <div class="keys-normal">
+            <h3>6</h3>
+          </div>
+          <div class="keys-normal">
+            <h3>+</h3>
+          </div>
+        </div>
+        <div class="keypad-rows">
+          <div class="keys-normal">
+            <h3>1</h3>
+          </div>
+          <div class="keys-normal">
+            <h3>2</h3>
+          </div>
+          <div class="keys-normal">
+            <h3>3</h3>
+          </div>
+          <div class="keys-normal">
+            <h3>-</h3>
+          </div>
+        </div>
+        <div class="keypad-rows">
+          <div class="keys-normal">
+            <h3>.</h3>
+          </div>
+          <div class="keys-normal">
+            <h3>0</h3>
+          </div>
+          <div class="keys-normal">
+            <h3>/</h3>
+          </div>
+          <div class="keys-normal">
+            <h3>x</h3>
+          </div>
+        </div>
+        <div class="keypad-rows bottom">
+          <div class="keys-normal low reset">
+            <h3>Reset</h3>
+          </div>
+          <div class="keys-normal low equal">
+            <h3>=</h3>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
 </html>
