@@ -215,4 +215,47 @@ div{
     --clr-keys-text:hsl(52, 100%, 62%);
 }
 
+@media screen and  (min-width:1024px){
+    .main{
+        max-width:450px;
+        margin:3em auto;
+        padding:1rem;
+        /* border:1px solid red; */
+    }
+    .keys-normal{
+        background-color: var(--clr-keys-normal);
+        padding:2.3rem;
+        padding-top:1rem;
+        padding-bottom:2rem;
+        text-align: center;
+        border-radius: 5px;
+        border-bottom: 4px solid var(--clr-keys-normal-shadows);
+        box-sizing: border-box;
+        outline: none;
+        cursor: pointer;
+        color:var(--clr-keys-normal-text)
+    }
+    .keys-normal.del{
+        padding:1.5rem 1.502rem;
+        padding-top:1rem;
+        background-color: var(--clr-keys-bg);
+        border-bottom: 4px solid var(--clr-keys-shadows);
+        color:white;
+    }
+    .reset{
+        background-color: var(--clr-keys-bg);
+        padding-right: 3.7rem;
+        padding-left:3.7rem;
+        border-bottom: 4px solid var(--clr-keys-shadows);
+        color:white;
+    }
+    .equal{
+        background-color: var(--clr-keys-toggle);
+        padding-right: 5.5rem;
+        padding-left:5.5rem;
+        color:white;
+        border-bottom: 4px solid var(--clr-keys-toggle-shadows);
+    }
+}
+
 
