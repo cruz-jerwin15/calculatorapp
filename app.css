@@ -2,9 +2,11 @@
 .attribution {
     font-size: 11px;
     text-align: center;
+    color:var(--clr-keys-toggle);
+    margin-top:-5rem;
 }
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: white;
 }
 
 *{
@@ -257,5 +259,14 @@ div{
         border-bottom: 4px solid var(--clr-keys-toggle-shadows);
     }
 }
+
+#theme-1{
+    opacity: 100;
+}
+#theme-2,#theme-3{
+    opacity: 0;
+}
+
+
 
 

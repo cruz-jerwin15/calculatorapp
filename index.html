@@ -12,7 +12,8 @@
       href="./images/favicon-32x32.png"
     />
 
-    <title>Frontend Mentor | Calculator app</title>
+    <!-- <title>Frontend Mentor | Calculator app</title> -->
+    <title>Calculator Theme App</title>
     <link rel="stylesheet" href="app.css" />
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
@@ -28,7 +29,13 @@
         <div class="theme-div">
           <h2>Theme</h2>
           <div class="theme-set">
-            <input type="radio" id="theme-1" name="theme" class="theme" />
+            <input
+              type="radio"
+              id="theme-1"
+              name="theme"
+              class="theme"
+              checked
+            />
             <input type="radio" id="theme-2" name="theme" class="theme" />
             <input type="radio" id="theme-3" name="theme" class="theme" />
             <!-- <div class="theme" id="theme-1"></div>
@@ -38,7 +45,7 @@
         </div>
       </div>
       <div class="screen-div">
-        <h2>0</h2>
+        <h2 id="displayScreen">0</h2>
       </div>
       <div class="keypad-div">
         <div class="keypad-rows">
@@ -107,11 +114,15 @@
         </div>
       </div>
     </main>
-    <!-- <div class="attribution">
+    <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div> -->
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/cruz-jerwin15"
+        >Jerwin Cruz</a
+      >.
+    </footer>
+    <script src="app.js"></script>
   </body>
 </html>
